@@ -1,0 +1,1 @@
+Este projeto é um ambiente mínimo para desenvolvimento React, ele usa React, Webpack 4 e Babel 7. Um post explicando o projeto e suas partes em [meu blog](https://pipocacafeinada.com.br/2019/03/11/criando-um-ambiente-minimo-para-react.html)
