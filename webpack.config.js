@@ -7,7 +7,17 @@ module.exports = {
                 use: {
                     loader: "babel-loader"
                 },
+            },
+            {
+                test: /\.css$/,
+                use: [ "style-loader", "css-loader" ]
             }
         ]
+    },
+    devServer: {
+        port: 9000,
+        hot: true,
+        open: true,
+        contentBase: 'dist'
     }
 }
